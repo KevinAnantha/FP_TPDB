@@ -1,0 +1,44 @@
+body{
+    background-color: #4FA095;
+    font-family: 'Geologica', sans-serif;
+}
+
+.box-profile{
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+    background-color: #F6F6C9;
+}
+
+.judul-profile{
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+    background-color: #F6F6C9;
+}
+
+.postingan-profile{
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+    background-color: #F6F6C9;
+}
+
+.mobile {
+    display: none; /* Secara default, div disembunyikan */
+    /* Tambahkan gaya lain yang Anda inginkan */
+}
+  
+  /* Media query untuk resolusi kurang dari 922px */
+  @media (max-width: 991px) {
+    .mobile {
+      display: block; /* Tampilkan div ketika lebar layar kurang dari 922px */
+      /* Tambahkan gaya tambahan jika diperlukan saat resolusi ini */
+    }
+  }
+  
+  /* Media query untuk resolusi di atas 991px */
+  @media (min-width: 992px) {
+    .mobile {
+      display: none; /* Sembunyikan div ketika lebar layar 992px atau lebih */
+    }
+  }

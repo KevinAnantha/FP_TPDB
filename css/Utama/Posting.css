@@ -1,0 +1,20 @@
+body{
+    background-color: #4FA095;
+    font-family: 'Geologica', sans-serif;
+}
+
+.inputan{
+    width: 100%;
+}
+
+.box_post{
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+}
+
+.button_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

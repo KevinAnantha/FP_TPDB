@@ -1,0 +1,12 @@
+body{
+    background-color: #4FA095 !important;
+    font-family: 'Geologica', sans-serif !important;
+}
+
+.box_detail{
+    width: 100%;
+    height: auto;
+    background-color: #F6F6C9;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+}

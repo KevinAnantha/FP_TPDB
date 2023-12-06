@@ -1,0 +1,21 @@
+body{
+    background-color: #4FA095;
+    font-family: 'Geologica', sans-serif;
+}
+
+.kotak_fitur{
+    background-color: #F6F6C9;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+}
+
+.list-group-item.active {
+    background-color: #153462;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.container_benefit{
+    padding: 40px;
+}

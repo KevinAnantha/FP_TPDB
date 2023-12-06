@@ -1,0 +1,79 @@
+body{
+    background-color: #4FA095 !important;
+    font-family: 'Geologica', sans-serif;
+}
+
+.box_content{
+    width: 100%;
+    height: auto;
+    background-color: #F6F6C9;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+}
+
+.box_kategori{
+    height: auto;
+    width: 100%;
+    background-color: #F6F6C9;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+    text-align: center;
+}
+
+.change-color{
+    transition: background-color 0.3s ease;
+}
+
+.change-color:hover {
+    background-color: #e0e273;
+}
+
+.iklan-kecil{
+    display: block;
+}
+
+.iklan-besar{
+    display: block;
+}
+
+.iklan-vertical{
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.iklan-tengah{
+  display: flex;
+  justify-content: center;
+}
+
+
+.button-outer-container {
+    width: 100%; /* Atur lebar div utama sesuai kebutuhan */
+    overflow-x: auto; /* Aktifkan scroll horizontal */
+}
+
+/* Gaya untuk div pengelompokan tombol-tombol */
+.button-inner-container {
+    white-space: nowrap; /* Hindari pemisahan tombol ke baris baru */
+}
+
+/* Gaya untuk tombol-tombol di dalam div */
+.button-inner-container button {
+    display: inline-block; /* Atur tata letak tombol secara horizontal */
+    margin-right: 10px; /* Beri jarak antara tombol */
+    padding: 5px 10px; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+@media screen and (min-width: 992px) {
+    .button-outer-container,
+    .button-inner-container,
+    .button-inner-container button {
+        display: none;
+    }
+}
+
+/* .container-button{
+    display: flex;
+    justify-content: center;
+} */

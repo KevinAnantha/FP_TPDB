@@ -1,0 +1,24 @@
+body{
+    background-color: #4FA095;
+    font-family: 'Geologica', sans-serif;
+}
+
+.container_orang{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.border_orang{
+    text-align: center;
+    padding: 30px;
+    background-color: #F6F6C9;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+}
+
+.aboutus{
+    background-color: #F6F6C9;
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+}
+
