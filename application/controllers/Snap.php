@@ -144,7 +144,7 @@ class Snap extends CI_Controller {
         $time = time();
         $custom_expiry = array(
             'start_time' => date("Y-m-d H:i:s O",$time),
-            'unit' => 'minute', 
+            'unit' => 'hours', 
             'duration'  => 1
         );
         
