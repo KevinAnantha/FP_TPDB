@@ -37,20 +37,7 @@ class Profile extends CI_Controller {
 
 	}
 
-    public function aksi_hapus($id)
-    {
-
-
-            if ($this->M_profile->hapus_postingan($id)) {
-                echo "Postingan berhasil dihapus.";
-            } else {
-                echo "Gagal menghapus postingan.";
-            }
-
-
-        
-    }
-
+    
     public function history($id)
     {
 
