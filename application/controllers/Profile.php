@@ -20,7 +20,7 @@ class Profile extends CI_Controller {
             $username = $this->session->userdata('id_user');
 
             $this->load->model('M_profile');
-            // $data['projects_user'] = $this->M_profile->get_all_data();
+            
 
 
             $profile_data = $this->M_profile->getProfileData($username);
